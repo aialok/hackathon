@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+   
+    height: 20vh;
+    width: 100%;
+}
+.carousel-css{
+  
+    display: inline-block;
+    margin: 0px auto;
+    width: 90%;
+    height: 500px;
+    padding: 50px;
+    border-radius: 10px;
+  
+}
+.carousel{
+    background-color: #edf0f3;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10px;
+  
+}
+
+
+@media screen and (max-width : 600px) {
+    .carousel-css{
+  
+      width: 350px;
+      height: 350px;
+    }
+}
+.statistics{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: azure;
+}
+.stories{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(106, 215, 215);
+}
